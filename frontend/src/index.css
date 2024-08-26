@@ -1,0 +1,22 @@
+/*New file*/
+
+/*Now we store some colours by variable name here*/
+:root {
+  --background-color: ghostwhite;
+
+  --primary-text-color: slategrey;
+
+  --toggle-bg: orange; /*toggle button background 
+    colour set to orange so that it stands out*/
+  --toggle-fg: black;
+}
+
+[data-theme="DarkMode"] {
+  --background-color: slategrey;
+
+  --primary-text-color: white;
+
+  --toggle-bg: SkyBlue; /*toggle button background 
+    colour set to blue so that it stands out*/
+  --toggle-fg: white;
+}
